@@ -83,7 +83,10 @@ const TodoCreate = () => {
   const nextId = useTodoNextId();
 
   const onToggle = () => setOpen(!open);
-  const onChange = (e) => setValue(e.target.value);
+  const onChange = (e) => {
+    console.log(e.target);
+    setValue(e.target.value);
+  };
   const onSubmit = (e) => {
     e.preventDefault();
     dispatch({
