@@ -1,3 +1,4 @@
+import { useContext } from "react";
 import { createContext } from "react";
 import { useReducer } from "react";
 
@@ -51,4 +52,12 @@ export function TodoProvider({ children }) {
       </TodoDispatchContext.Provider>
     </TodoStateContext.Provider>
   );
+}
+
+export function useTodoState() {
+  return useContext(TodoStateContext);
+}
+
+export function useTodoDispatch() {
+  return useContext(TodoDispatchContext);
 }
