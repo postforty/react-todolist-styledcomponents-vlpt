@@ -3,3 +3,5 @@
 + npx create-react-app todolist-js
 + npm install styled-components
 + npm install react-icons
+## JS 프로젝트에 TS 적용
++ npm install typescript @types/node @types/react @types/react-dom @types/jest
