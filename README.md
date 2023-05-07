@@ -6,3 +6,4 @@
 ## JS 프로젝트에 TS 적용
 + npm install typescript @types/node @types/react @types/react-dom @types/jest
   + https://any-ting.tistory.com/93 (환경 설정 참조)
++ npm i --save-dev @types/styled-components
